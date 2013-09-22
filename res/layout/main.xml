@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:gravity="center_horizontal">
+
+    <Button android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dip"
+            android:onClick="setNormalStyle"
+            android:text="@string/normal"/>
+
+    <Button android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dip"
+            android:onClick="setBigTextStyle"
+            android:text="@string/big_text_style"/>
+
+    <Button android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dip"
+            android:onClick="setBigPictureStyle"
+            android:text="@string/big_picture_style"/>
+
+    <Button android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dip"
+            android:onClick="setInboxStyle"
+            android:text="@string/inbox_style"/>
+
+    <Button android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dip"
+            android:onClick="setCustomView"
+            android:text="@string/custom_view"/>
+
+</LinearLayout>
+
